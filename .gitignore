@@ -1,0 +1,3 @@
+# Ignore locally uploaded media; keep the folder structure in Git.
+/uploads/items/*
+!/uploads/items/.gitkeep
