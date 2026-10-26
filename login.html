@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14213d">
+  <title>Masuk | RuangSewa</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <main class="login-shell">
+    <section class="login-showcase">
+      <a class="brand brand-light" href="login.html"><span class="brand-mark">R</span><span class="brand-copy"><strong>RuangSewa</strong><small>PROVIDER CONSOLE</small></span></a>
+      <div class="showcase-content"><span class="eyebrow eyebrow-light"><span class="live-dot"></span> RENTAL MANAGEMENT SYSTEM</span><h1>Kelola bisnis sewa dengan lebih <em>terarah.</em></h1><p>Pantau inventaris, proses pesanan, dan jaga ketersediaan barang dari satu dashboard.</p>
+        <div class="showcase-stats"><div><strong>01</strong><span>Inventaris tertata</span></div><div><strong>02</strong><span>Alur pesanan jelas</span></div><div><strong>03</strong><span>Laporan terpusat</span></div></div>
+        <div class="showcase-art"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-card art-card-main"><div class="art-card-top"><span class="art-dot"></span><span class="art-dot"></span><span class="art-dot"></span><small>OVERVIEW</small></div><div class="art-card-label">Total inventaris</div><div class="art-card-value">24 <span>item</span></div><div class="art-bars"><i style="height:38%"></i><i style="height:52%"></i><i style="height:44%"></i><i style="height:68%"></i><i style="height:58%"></i><i style="height:86%"></i><i style="height:76%"></i><i style="height:96%"></i></div></div><div class="art-floating art-floating-top"><span class="floating-icon">✓</span><span><strong>Pesanan diproses</strong><small>Status tercatat</small></span></div><div class="art-floating art-floating-bottom"><span class="floating-icon floating-icon-green">↗</span><span><strong>Stok terpantau</strong><small>Jadwal lebih rapi</small></span></div></div>
+      </div>
+      <div class="showcase-footer"><span>© 2026 RuangSewa</span><span>Dashboard penyedia barang</span></div>
+    </section>
+    <section class="login-panel"><div class="login-panel-inner"><div class="mobile-login-brand"><span class="brand-mark">R</span><strong>RuangSewa</strong></div><div class="login-heading"><span class="eyebrow">SELAMAT DATANG KEMBALI</span><h2>Masuk ke dashboard</h2><p>Gunakan akun penyedia untuk melanjutkan pengelolaan tokomu.</p></div>
+      <form id="loginForm" class="login-form" autocomplete="on" novalidate>
+        <div class="field-group"><label for="email">Alamat email</label><div class="input-with-icon"><span>✉</span><input id="email" name="email" type="email" autocomplete="username" value="penyedia@example.test" placeholder="nama@email.com" required></div><small class="field-error" data-error-for="email"></small></div>
+        <div class="field-group"><div class="field-label-row"><label for="password">Kata sandi</label><button class="text-button" id="togglePassword" type="button">Tampilkan</button></div><div class="input-with-icon"><span>⌑</span><input id="password" name="password" type="password" autocomplete="current-password" placeholder="Masukkan kata sandi" required><small class="field-error" data-error-for="password"></small></div></div>
+        <div class="login-message" id="loginMessage" role="alert" hidden></div>
+        <button class="btn btn-primary btn-block btn-login" type="submit"><span>Masuk ke dashboard</span><span class="btn-arrow">→</span></button>
+      </form>
+      <div class="demo-account"><div class="demo-account-head"><span class="demo-shield">i</span><strong>Akun demo untuk praktikum</strong></div><p>Email: <code>penyedia@example.test</code><br>Kata sandi: <code>SewaDemo123!</code></p><button type="button" class="btn btn-outline btn-block" id="fillDemo">Isi akun demo <span>↗</span></button></div>
+      <div class="login-legal">Dengan masuk, kamu menggunakan prototipe akademik yang berjalan di server lokal.</div>
+    </div></section>
+  </main>
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
