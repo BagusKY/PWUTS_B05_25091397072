@@ -49,19 +49,6 @@ Aksi alur hanya tersedia ketika status sebelumnya sesuai. Semua mutasi status di
 - MySQL/MariaDB melalui XAMPP
 - AJAX untuk navigasi dan komunikasi dengan API
 
-## Persiapan dan cara menjalankan di XAMPP
-
-1. Ekstrak folder proyek ke `C:\xampp\htdocs\`.
-2. Ganti placeholder `KODEKELOMPOK` pada nama folder/repository dengan kode kelompok resmi dari dosen jika sudah diketahui. Contoh format folder: `PWUTS_A03_25091397072`.
-3. Jalankan **Apache** dan **MySQL** dari XAMPP Control Panel.
-4. Buka `http://localhost/phpmyadmin`.
-5. **Pilih satu jalur database berikut, jangan jalankan keduanya:**
-   - **Install baru:** gunakan menu Import untuk menjalankan `database/penyewaan_barang.sql`. File ini menghapus tabel proyek bernama sama dan membuat data demo baru.
-   - **Upgrade dari website dasar yang sudah kamu jalankan:** pilih database `db_penyewaan_barang`, buka menu Import, lalu jalankan `database/upgrade_existing_database.sql`. Migrasi ini tidak menghapus data, tetapi perlu dijalankan satu kali. Jika index unik gagal dibuat, baca pesan error dan periksa duplikat sebelum melanjutkan.
-6. Periksa kredensial database di awal `api/db.php`. Konfigurasi default: host `localhost`, database `db_penyewaan_barang`, user `root`, password kosong.
-7. Buka `http://localhost/NAMA_FOLDER_PROYEK/login.html`.
-8. Masuk menggunakan akun demo di bawah.
-
 ### Akun demo penyedia
 
 - Email: `penyedia@example.test`
