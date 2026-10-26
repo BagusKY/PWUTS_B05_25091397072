@@ -21,12 +21,10 @@ Alih-alih hanya menampilkan katalog, RuangSewa berfokus pada pekerjaan operasion
 - [Arsitektur aplikasi](#arsitektur-aplikasi)
 - [Struktur folder](#struktur-folder)
 - [Rancangan database](#rancangan-database)
-- [Menjalankan aplikasi di XAMPP](#menjalankan-aplikasi-di-xampp)
 - [Akun demo](#akun-demo)
 - [Skenario pengujian](#skenario-pengujian)
 - [Pemecahan masalah](#pemecahan-masalah)
 - [Batasan versi dan pengembangan berikutnya](#batasan-versi-dan-pengembangan-berikutnya)
-- [Catatan pengumpulan UTS](#catatan-pengumpulan-uts)
 
 ---
 
