@@ -1,4 +1,4 @@
-# RuangSewa Advanced
+# RuangSewa
 
 ### Dashboard penyedia untuk pengelolaan bisnis penyewaan barang
 
@@ -314,7 +314,7 @@ Endpoint tidak dimaksudkan untuk diakses sebagai halaman HTML biasa; endpoint me
 Ekstrak ZIP lalu salin folder project ke direktori `htdocs`, misalnya:
 
 ```text
-C:\xampp\htdocs\PWUTS_KODEKELOMPOK_25091397072\
+C:\xampp\htdocs\PWUTS_B05_25091397072\
 ```
 
 Pastikan struktur folder tidak menjadi bertingkat dua. File `index.html`, `login.html`, direktori `api/`, `css/`, `js/`, `pages/`, dan `database/` harus berada di dalam folder project yang sama.
