@@ -476,22 +476,6 @@ RuangSewa Advanced dibuat untuk menjadi prototipe operasional dashboard penyedia
 
 Pengembangan yang dapat dipertimbangkan berikutnya adalah dashboard admin, halaman pelanggan, kalender ketersediaan visual, pemberitahuan otomatis, laporan lebih lengkap, dan pengujian otomatis.
 
-## Catatan pengumpulan UTS
 
-Sesuai instruksi UTS, gunakan format nama folder/repository berikut:
-
-```text
-PWUTS_<kode_kelompok>_25091397072
-```
-
-Ganti `<kode_kelompok>` dengan kode kelompok resmi yang ditetapkan dosen. Sebelum mengunggah ke GitHub:
-
-1. Pastikan seluruh kode, file gambar, skrip SQL, dan README masuk ke repository.
-2. Pastikan nama repository sesuai format yang diminta dosen.
-3. Periksa bahwa struktur folder tidak berubah sehingga path antarfail tetap benar.
-4. Pastikan repository dapat diakses oleh dosen.
-5. Sertakan penjelasan dan dokumentasi yang sesuai dengan fitur yang benar-benar dibuat.
-
----
 
 **RuangSewa Advanced — kelola inventaris dengan rapi, proses pesanan dengan jelas, dan pantau penyewaan dalam satu dashboard.**
